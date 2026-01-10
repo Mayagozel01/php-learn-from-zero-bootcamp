@@ -56,3 +56,32 @@ switch (true) {
 ?>
 
 <a href="https://www.php.net/manual/ru/langref.php">Справочник</a>
+
+<br>
+<h2>String</h2>
+<?php
+$str = 'Hello, World! ';
+$str2 = "$str Hello, PHP!";
+$str3 = "{$str} Hello, PHP!";
+echo $str;
+echo "<br>";
+echo $str2;
+echo "<br>";
+echo $str3;
+?>
+<h2>Arrays</h2>
+<?php
+$array = ['salad', 'burger', 'pizza'];
+var_dump($array);
+echo "<br>";
+echo $array[1];
+echo "<br>";
+$array[3] = 'Tomato soup';
+var_dump($array);
+echo "<br>";
+// associative array
+$arrayAssoc = [
+    "john" => 'salad',
+    "doe" => 'burger',
+    "smith" => 'pizza'
+];
