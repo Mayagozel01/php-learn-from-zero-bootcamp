@@ -1,0 +1,1 @@
+#### PHP is a dynamically typed language.
