@@ -85,3 +85,11 @@ $arrayAssoc = [
     "doe" => 'burger',
     "smith" => 'pizza'
 ];
+//match expression
+$paymentStatus = '2';
+var_dump($message = match ($paymentStatus) {
+    1 => 'status',
+    2 => 'denied',
+    '2' => 'pending',
+    default => 'unknown status',
+});
