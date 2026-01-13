@@ -5,3 +5,10 @@
 <a href="syntax.php">
     1. Go to Syntax Page
 </a>
+<br>
+<br>
+<br>
+
+<a href="variables.php">
+    2. Go to Variables Page
+</a>
