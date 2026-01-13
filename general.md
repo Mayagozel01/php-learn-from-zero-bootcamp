@@ -45,7 +45,7 @@ calculation as expected.
 
 Here is an analogy to help understand the
 
-importance of data types.
+### importance of data types.
 Imagine you are cooking a meal and need
 
 to measure ingredients.
