@@ -9,4 +9,6 @@
     <li><a href="loops.php">4. Go to Loops Page</a></li>
     <li><a href="functions.php">5. Go to Functions Page</a></li>
     <li><a href="classes.php">6. Go to Classes Page</a></li>
+    <li><a href="leap_year.php">7. Go to Leap Year Exercise Page</a></li>
+    <li><a href="filling_the_gaps.php">8. Go to Filling the Gaps Page</a></li>
 </ul>
