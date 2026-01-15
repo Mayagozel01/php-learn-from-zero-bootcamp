@@ -1,0 +1,24 @@
+# Arrays in PHP
+
+```php
+$numbers = array(1, 2, 3, 4, 5);
+
+$fruits = ['apple', 'banana', 'cherry'];
+
+echo $numbers[0]; // 1
+
+echo $fruits[1]; // banana
+```
+
+## Associative array
+
+```php
+$person = [
+
+    'name' => 'John',
+
+    'age' => 30
+
+];
+
+echo $person['name'];
