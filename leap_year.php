@@ -1,3 +1,6 @@
+<?php
+include "nav.php";
+?>
 <h1>Leap year exercise with solution</h1>
 <p>what is leap_year ?</p>
 <p>A leap year is a year that is divisible by 4, but not by 100, unless it is also divisible by 400.</p>
@@ -23,4 +26,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>$year is not a leap year.</p>";
     }
 }
+include "home.php";
 ?>

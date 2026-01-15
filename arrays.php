@@ -1,4 +1,8 @@
 <?php
+include "nav.php";
+?>
+
+<?php
 
 // Arrays in PHP
 
@@ -20,6 +24,6 @@ $person = [
 
 ];
 
-echo $person['name'];
-
+echo $person['name'] . "<br>";
+include "home.php";
 ?>

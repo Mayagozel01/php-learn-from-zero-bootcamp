@@ -1,3 +1,7 @@
+<?php
+include "nav.php";
+?>
+
 <h1>Параметр — это переменная, объявленная в списке параметров функции.
     Аргумент — это конкретное значение, которое передается в этот параметр при вызове функции.</h1>
 <?php
@@ -85,4 +89,10 @@ function sum($a, $b, $multiply)
     return $multiply($a, $b);
 }
 echo "<br>" . sum(5, 10, $multiply); // Outputs: 50
+echo "<br>" . floor(4.7); // Outputs: 4
+echo "<br>" . (int) 4.8;
+echo "<br>" . floor(-4.7); // Outputs: 5
+echo "<br>" . (int) -4.7 . "<br>";
+// тут важно различать округление и приведение типа
+include "home.php";
 ?>

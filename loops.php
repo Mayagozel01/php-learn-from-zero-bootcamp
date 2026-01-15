@@ -1,4 +1,8 @@
 <?php
+include "nav.php";
+?>
+
+<?php
 
 // Loops in PHP
 
@@ -31,5 +35,5 @@ foreach ($colors as $color) {
     echo $color . "<br>";
 
 }
-
+include "home.php";
 ?>

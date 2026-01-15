@@ -1,4 +1,8 @@
 <?php
+include "nav.php";
+?>
+
+<?php
 echo '<h1>Welcome to the Syntax Page</h1>';
 echo "<p>This page demonstrates PHP syntax.</p>";
 var_dump(29);
@@ -93,3 +97,4 @@ var_dump($message = match ($paymentStatus) {
     '2' => 'pending',
     default => 'unknown status',
 });
+include "home.php";

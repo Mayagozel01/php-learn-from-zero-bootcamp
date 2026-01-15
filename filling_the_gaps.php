@@ -1,3 +1,7 @@
+<?php
+include "nav.php";
+?>
+
 <h1>Difference between Define and Const</h1>
 <p>Define is a function that can be used to define constants at runtime, while const is a language construct that
     defines constants at compile time.</p>
@@ -40,3 +44,5 @@ echo "<p> after deleting element array indexes is missed</p>
 <p> to reindex the array use array_values() function</p>";
 $names = array_values($names);  // Reindex the array
 print_r($names);
+
+include "home.php";

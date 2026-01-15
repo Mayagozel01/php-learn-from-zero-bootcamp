@@ -1,4 +1,9 @@
 <?php
+include "nav.php";
+?>
+
+
+<?php
 
 // Classes in PHP
 
@@ -30,5 +35,5 @@ class Person
 $person = new Person("John", 30);
 
 echo $person->greet();
-
+include "home.php";
 ?>
