@@ -12,6 +12,8 @@
     <li><a href="leap_year.php">7. Go to Leap Year Exercise Page</a></li>
     <li><a href="filling_the_gaps.php">8. Go to Filling the Gaps Page</a></li>
     <li><a href="armstrong_number.php">9. Go to Armstrong Number Exercise Page</a></li>
+    <li><a href="arslan.php">10. Go to Arslan Page</a></li>
+    <li><a href="private.php">11. Go to Private Properties Page</a></li>
 
 </ul>
 <?php
