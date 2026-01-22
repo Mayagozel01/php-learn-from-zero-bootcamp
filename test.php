@@ -1,30 +1,17 @@
 <?php
-class User
-{
-    private $name;
 
-    public function setName($name)
-    {
-        $this->name = $name;
-    }
-    public function getName()
-    {
-        return $this->name;
-    }
-}
-
-class Employee extends User
+function plusOne($digits)
 {
-    public function changeName($name)
-    {
-        if (strlen($name) > 0) {
-            $this->setName($name);
+    $n = count($digits);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        if ($digits[$i] < 9) {
+            $digits[$i]++;
+            return $digits;
         }
+        $digits[$i] = 0;
     }
+    array_unshift($digits, 1);
+    return $digits;
 }
-$employee = new Employee();
-$employee->setName("Bob");
-echo $employee->getName();
-echo PHP_EOL;
-
+print_r(plusOne([9, 9, 9, 9, 9])); // Output: [1, 0, 0, 0, 0, 0]
 ?>
